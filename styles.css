@@ -24,6 +24,7 @@
 }
 .sign {
     background-color: #3882F6;
+    display: flex;
 }
 #quote {
     background-color: #E5E7EB;
@@ -36,5 +37,15 @@
     color: #1F2937;
 }
 #top {
+    display: flex;
+}
+#bottom {
+    display: flex;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+}
+.box {
     display: flex;
 }
